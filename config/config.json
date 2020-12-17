@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "graph-api-events-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/graphApiEvents/GraphApiEventsWebPart.js",
+          "manifest": "./src/webparts/graphApiEvents/GraphApiEventsWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "GraphApiEventsWebPartStrings": "lib/webparts/graphApiEvents/loc/{locale}.js"
+  }
+}
